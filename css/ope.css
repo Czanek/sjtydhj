@@ -1,0 +1,63 @@
+div{  
+  background-color: rgb(83, 109, 232);
+  width: 100%;
+  height: 70px}
+.txt{
+  color: rgb(245, 245, 255);
+  font-size: 55px;
+  font-family: fantasy;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.przerwa1 {  
+  background-color: rgb(245, 245, 255);
+  width: 100%;
+  height: 10px
+}
+.tytul{
+  background-color: rgb(245, 245, 255);
+  width: 100%;
+  height: 30px;
+}
+.kolumny{
+  background-color: rgb(245, 245, 255);
+  width: 80%;
+  height: auto;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+
+  -webkit-column-rule: 4px outset #536DE8; /* Chrome, Safari, Opera */
+  -moz-column-rule: 4px outset #536DE8; /* Firefox */
+  column-rule: 4px outset #536DE8;
+}
+.kolumny2{
+  background-color: rgb(245, 245, 255);
+  width: 80%;
+  height: 100px;
+  text-align: left;;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+
+  -webkit-column-rule: 4px outset #536DE8; /* Chrome, Safari, Opera */
+  -moz-column-rule: 4px outset #536DE8; /* Firefox */
+  column-rule: 4px outset #536DE8;
+}
+
+footer {
+  position: fixed;
+  bottom: 0; /* left right top */
+  background-color: rgb(83, 109, 232);
+  height: 100px;
+  width: 100%;
+}
