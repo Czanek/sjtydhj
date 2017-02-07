@@ -1,42 +1,136 @@
-div{  
-  background-color: rgb(83, 109, 232);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div {  
+  /*background-color: rgb(83, 109, 232);*/
+  font-family: sans-serif;
+  color: rgb(245, 245, 255);
+}
+
+body { position:absolute; top:0; bottom:0; right:0; left:0; }
+
+.space {  
+  background-color: rgb(245, 245, 255);
   width: 100%;
-  height: 70px}
-.txt{
+  height: 30px
+}
+.txt {
   color: rgb(245, 245, 255);
   font-size: 55px;
   font-family: fantasy;
   text-align: center;
   text-transform: uppercase;
 }
-
-.przerwa1 {  
+.title {
   background-color: rgb(245, 245, 255);
   width: 100%;
-  height: 10px
+  height: 100%;
+  color: rgb(183, 109, 232);
+  text-align: center;
+  font-family: inherit;
 }
-.tytul{
+.title1 {
   background-color: rgb(245, 245, 255);
   width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-family: fantasy;
+  color: rgb(255, 0, 0);
+}
+.title2 {
+  background-color: rgb(245, 245, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  font-family: cursive;
+  color: rgb(83, 109, 232);
+  
+}
+.space2 {  
+  background-color: rgb(245, 245, 255);
+  width: 100%;
+  height: 100%
+}
+.custom {
+  position: fixed;
+  bottom: 0; /* left right top */
+  background: rgb(83, 109, 232);
   height: 30px;
+  width: 100%;
+  font-family: fantasy;
+  color: rgb(245, 245, 255);
+  font-size: 15px;
 }
-.kolumny{
-  background-color: rgb(245, 245, 255);
-  width: 80%;
-  height: auto;
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
-
-  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 40px; /* Firefox */
-  column-gap: 40px;
-
-  -webkit-column-rule: 4px outset #536DE8; /* Chrome, Safari, Opera */
-  -moz-column-rule: 4px outset #536DE8; /* Firefox */
-  column-rule: 4px outset #536DE8;
+.custom2 {
+  position: absolute;
+  bottom: 0; /* left right top */
+  background: rgb(83, 109, 232);
+  height: 100px;
+  width: 100%;
+  font-family: fantasy;
+  color: rgb(245, 245, 255);
+  font-size: 15px;
+  text-align: right;
+  background-image: url("C:/Users/Czanuś/Desktop/Stronka/fotky/1.png");
 }
-.kolumny2{
+.img {
+  background-image: url("../fotky/1.png") ;
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-size: cover;
+}
+.img-box {
+  position: relative;
+  width: 100%;
+}
+.kolumny2 {
   background-color: rgb(245, 245, 255);
   width: 80%;
   height: 100px;
@@ -54,10 +148,25 @@ div{
   column-rule: 4px outset #536DE8;
 }
 
-footer {
-  position: fixed;
-  bottom: 0; /* left right top */
-  background-color: rgb(83, 109, 232);
-  height: 100px;
-  width: 100%;
+p {
+  line-height: 1.4;
+}
+.footer-box {
+  position: relative;
+}
+.pull-right {
+  float: right;
+}
+.copyleft {
+  margin-right: 15px;
+}
+
+.main-aside {
+  position: absolute;
+  width: 10%;
+  right: 0;
+  background-color: #d89d8d;
+  min-height: 100vh;
+	opacity: 0.5;
+	cursor: wait;
 }
